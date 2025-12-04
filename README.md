@@ -1,8 +1,10 @@
 # example-repo
 
-# Project: Metegenomic Analysis of Alzheimer Samples
+# Project: Task 23 Synthesis - Inventory program
 
-Description: The provided code is a makefile that will take fastq files and generate
-abundance data for all the samples. Merged fastq files are initially filtered to remove
-mouse and human sequences with Bowtie2, then remaining sequences are passed to Kraken2
-and Bracken to determine microbial abundance.
+Description: The provided inventory.py is a program that allows the user to
+assess the shoe inventory. The user can add new shoes, restock, search,
+lookup values, and identify shoes that are to be on sale.
+
+Required Input: The program reads in a .txt file containing the current
+inventory.
